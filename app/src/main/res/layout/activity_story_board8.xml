@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Gambar Header -->
+        <ImageView
+            android:id="@+id/imgLeaderboardHeader"
+            android:layout_width="309dp"
+            android:layout_height="239dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/robotpintar" />
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/txtLeaderboardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leaderboard"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/ivory"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- LIST PEMAIN -->
+        <LinearLayout
+            android:id="@+id/leaderboardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Juara 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_edittext">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🥇"
+                    android:textSize="22sp"
+                    android:layout_marginRight="12dp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1. Andi"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1200"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <!-- Juara 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_button_ivory">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🥈"
+                    android:textSize="22sp"
+                    android:layout_marginRight="12dp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2. Budi"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="950"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <!-- Juara 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_button_ivory">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🥉"
+                    android:textSize="22sp"
+                    android:layout_marginRight="12dp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3. Citra"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="870"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/maroon_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="245dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="Kembali ke Home"
+            android:textColor="@color/maroon"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- LOVE BAR / NYAWA -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/love1"
+                android:src="@drawable/ic_heart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="8dp"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/love2"
+                android:src="@drawable/ic_heart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="8dp"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/love3"
+                android:src="@drawable/ic_heart"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <!-- JUDUL -->
+        <TextView
+            android:id="@+id/txtJudulKuis"
+            android:text="Quiz Master Challenge"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/ivory"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- PERTANYAAN -->
+        <TextView
+            android:id="@+id/txtPertanyaan"
+            android:text="Bagian apa yang biasanya berisi atribut (variabel) dan method dalam class C++?"
+            android:textColor="@color/ivory"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- PILIHAN -->
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="333dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="A. Main()"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="333dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="B. Public"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="333dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="C. Private / Public"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="333dp"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="D. Include"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <!-- KATA-KATA MOTIVASI -->
+        <TextView
+            android:id="@+id/txtMotivasi"
+            android:text="“Cerdas itu proses, bukan hasil instan. Terus belajar!”"
+            android:textColor="#FFEBEB"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Spacer untuk menurunkan tombol -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <!-- Tombol Kembali ke Home -->
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="245dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="Kembali ke Home"
+            android:textColor="@color/maroon"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

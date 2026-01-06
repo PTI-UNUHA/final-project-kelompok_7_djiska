@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Judul -->
+        <TextView
+            android:text="Daftar Materi"
+            android:textColor="@color/ivory"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Pelajari C++ mulai dari pengertian dasar hingga konsep Class dan OOP. Pilih materi di bawah untuk memulai."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- TOMBOL MENU -->
+        <Button
+            android:id="@+id/btnPengertian"
+            android:layout_width="357dp"
+            android:layout_height="66dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="Pengertian C++"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />  <!-- font diperbesar sedang -->
+
+        <Button
+            android:id="@+id/btnKelas"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button_ivory"
+            android:gravity="center"
+            android:text="CLASS di C++"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />  <!-- font diperbesar sedang -->
+
+        <!-- Spacer / Kosong -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <!-- GAMBAR DI BAGIAN BAWAH -->
+
+        <ImageView
+            android:layout_width="363dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Gambar Robot Coding"
+            android:scaleType="fitCenter"
+            android:src="@drawable/robotlove"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Ayo mulai belajar C++ sekarang! 🚀"
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="💡 Jangan lupa praktik setiap hari untuk menguasai C++ Class!"
+            android:textColor="@color/ivory"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Judul Halaman -->
+        <TextView
+            android:text="Pengertian C++"
+            android:textColor="@color/ivory"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Sejarah C++ -->
+        <TextView
+            android:text="Sejarah Singkat C++"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="C++ dikembangkan oleh Bjarne Stroustrup pada awal 1980-an sebagai pengembangan dari bahasa C. Tujuannya adalah menambahkan kemampuan pemrograman berorientasi objek (OOP) pada C, sambil tetap mempertahankan efisiensi dan fleksibilitas bahasa C. C++ menjadi populer karena mampu digunakan untuk membangun berbagai jenis program, mulai dari aplikasi sederhana hingga sistem operasi dan game kompleks."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Kelebihan C++ -->
+        <TextView
+            android:text="Kelebihan C++"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Beberapa kelebihan C++ dibanding bahasa lain antara lain: fleksibel, mendukung OOP, dapat memanipulasi memori secara langsung, performa tinggi, dan memiliki banyak pustaka serta framework pendukung."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Fokus Class / OOP -->
+        <TextView
+            android:text="Fokus pada Class / OOP"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Dalam C++ yang berfokus pada class, class berfungsi sebagai blueprint atau cetak biru untuk membuat objek. Objek memiliki atribut (data member) dan method (fungsi anggota) yang menentukan karakteristik dan perilaku. Dengan class, kode dapat diorganisir menjadi modul-modul yang mudah digunakan kembali, aman melalui enkapsulasi, dan lebih mudah dipelihara."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Konsep Utama OOP -->
+        <TextView
+            android:text="Konsep Utama OOP"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:text="Konsep utama pemrograman berorientasi objek di C++ meliputi:\n- Enkapsulasi: Menyembunyikan data dan hanya bisa diakses melalui fungsi publik.\n- Pewarisan: Membuat class baru yang mewarisi atribut dan method dari class lain.\n- Polimorfisme: Objek dapat memiliki banyak bentuk melalui fungsi virtual dan overriding.\n- Abstraksi: Menyembunyikan detail implementasi dan hanya menampilkan fungsi penting bagi pengguna."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Contoh Kode -->
+        <TextView
+            android:text="Contoh Class Sederhana"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Penjelasan Contoh -->
+        <TextView
+            android:text="Penjelasan Contoh: Atribut nama dan umur digunakan untuk menyimpan informasi tentang objek. Method setData memberikan nilai pada atribut, sedangkan tampilkanData menampilkan data objek. Akses private menjaga data agar tidak diubah sembarangan. Objek m1 adalah instansi dari class Mahasiswa yang dapat memiliki data dan fungsi sendiri, memungkinkan pembuatan objek lain dengan struktur yang sama."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <!-- Kesimpulan -->
+        <TextView
+            android:text="Kesimpulan: C++ merupakan bahasa pemrograman fleksibel yang mendukung pemrograman berorientasi objek. Class adalah komponen utama dalam OOP yang memungkinkan pengembangan program menjadi modular, aman, reusable, dan mudah dipelihara. Dengan class, setiap objek dapat memiliki data dan fungsi sendiri, namun tetap mengikuti struktur yang sama dari class tersebut."
+            android:textColor="@color/ivory"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

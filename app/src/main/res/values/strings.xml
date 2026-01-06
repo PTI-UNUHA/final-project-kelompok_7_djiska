@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="judul_class_cpp">Class di C++</string>
+
+    <string name="subjudul_atribut_method">Atribut dan Method di Class</string>
+
+    <string name="penjelasan_atribut_method">
+        Atribut adalah variabel yang menyimpan data objek, sedangkan method adalah fungsi yang mendefinisikan perilaku objek. Atribut bisa bersifat private atau public untuk mengontrol akses, sementara method biasanya public agar bisa digunakan dari luar class.
+    </string>
+
+    <string name="subjudul_contoh_buku">Contoh Atribut dan Method</string>
+
+    <string name="code_buku">
+class Buku {
+private:
+    string judul;
+    string penulis;
+public:
+    void setData(string j, string p) {
+        judul = j;
+        penulis = p;
+    }
+    void tampilkan() {
+        cout &lt;&lt; "Judul: " &lt;&lt; judul &lt;&lt; ", Penulis: " &lt;&lt; penulis &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Buku b;
+    b.setData("Pemrograman C++", "Tiyandwi");
+    b.tampilkan();
+    return 0;
+}
+    </string>
+
+    <string name="penjelasan_contoh_buku">
+        Method setData() memberikan nilai pada atribut private, sedangkan tampilkan() menampilkan isi atribut. Ini contoh penerapan enkapsulasi dan penggunaan atribut/method di class.
+    </string>
+
+    <string name="subjudul_class_mahasiswa">Contoh Praktis: Class Mahasiswa</string>
+
+    <string name="penjelasan_class_mahasiswa">
+        Contoh ini menggabungkan atribut, method, constructor, destructor, dan enkapsulasi dalam satu class lengkap.
+    </string>
+
+    <string name="code_mahasiswa">
+class Mahasiswa {
+private:
+    string nama;
+    int umur;
+public:
+    Mahasiswa(string n, int u) {
+        nama = n;
+        umur = u;
+        cout &lt;&lt; "Mahasiswa " &lt;&lt; nama &lt;&lt; " dibuat." &lt;&lt; endl;
+    }
+    void tampilkan() {
+        cout &lt;&lt; "Nama: " &lt;&lt; nama &lt;&lt; ", Umur: " &lt;&lt; umur &lt;&lt; endl;
+    }
+    ~Mahasiswa() {
+        cout &lt;&lt; "Mahasiswa " &lt;&lt; nama &lt;&lt; " dihapus." &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Mahasiswa m1("Tiyandwi", 21);
+    m1.tampilkan();
+    return 0;
+}
+    </string>
+
+</resources>
