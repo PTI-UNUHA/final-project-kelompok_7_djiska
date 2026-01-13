@@ -12,6 +12,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!-- Logo Kembali -->
+        <ImageView
+            android:id="@+id/btnKembali"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/baseline_home_24"
+            android:contentDescription="Kembali"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true" />
+
         <!-- Judul Halaman -->
         <TextView
             android:layout_width="wrap_content"
